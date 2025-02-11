@@ -20,32 +20,7 @@ This application is a web-based system with two levels of access: **Administrato
 5. **Multilingual Support**:
    - The system supports multiple languages (e.g., English and Polish).
    - Language selection is available for users.
-File Structure
-The project is organized as follows:
-
-project/
-├── admin/
-│   ├── content_add.php       # Add new content (Administrator only)
-│   ├── content_list.php      # List of content (Administrator only)
-│   ├── index.php             # Administrator panel
-│   ├── logout.php            # Logout functionality
-├── assets/
-│   ├── ckeditor/             # CKEditor files for WYSIWYG editor
-│   ├── css/                  # Stylesheets
-│   ├── PHPMailer-master/     # PHPMailer library for email handling
-├── includes/
-│   ├── auth.php              # Authentication handling
-│   ├── config.php            # Configuration file
-│   ├── db_connect.php        # Database connection
-│   ├── header_admin.php      # Header for the Administrator panel
-│   ├── header_user.php       # Header for the User panel
-│   ├── language.php          # Multilingual support
-├── user/
-│   ├── contact.php           # Contact page (requires user login)
-│   ├── index.php             # User panel
-│   ├── language.php          # Language handling for users
-│   ├── logout.php            # Logout functionality
-│   ├── login.php             # Login page
+   - 
 Installation
 1. **Clone the Repository**:
    - Clone the project into your local server directory (e.g., `htdocs` in XAMPP) using `git clone` or copy the files manually.
